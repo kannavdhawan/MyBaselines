@@ -1,4 +1,17 @@
 #telusco
+"""
+
+Let's say you have a class ClassA which contains a method methodA defined as:
+
+def methodA(self, arg1, arg2):
+    # do something
+and ObjectA is an instance of this class.
+
+Now when ObjectA.methodA(arg1, arg2) is called, python internally converts it for you as:
+
+ClassA.methodA(ObjectA, arg1, arg2)
+The self variable refers to the object itself.
+"""
 
 
 # 1 -----------------------------------------basic-----------------------------------------------------------------------
