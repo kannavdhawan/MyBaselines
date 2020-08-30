@@ -1,4 +1,4 @@
-### Some links: 
+### Links: 
 - Big O 
 
   - https://www.bigocheatsheet.com/
