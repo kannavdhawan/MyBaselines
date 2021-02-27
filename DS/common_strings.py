@@ -17,6 +17,7 @@ arr = [['kannav', 'T','D', 'kannav'],['kannav','Dhawan','T','K'],['kannav','T','
 cs = common_strings(arr)
 print(cs)
 
+
 # def common_strings(arr):
 #
 #   if len(arr)==0:
