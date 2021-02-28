@@ -40,8 +40,6 @@ print(ordered_search([1,2,3,4],0))
 
 
 
-
-
 def search(arr,ele):
     if ele in arr:
         return True
