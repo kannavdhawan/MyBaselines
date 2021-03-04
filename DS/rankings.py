@@ -18,3 +18,5 @@ def rankings(arr):
 arr = [25, 7, 54, 90, 7]
 ranking = rankings(arr)
 print(ranking)
+
+

@@ -18,6 +18,3 @@ def factorial(n):
 
     return memory[n]
 print(factorial(5))
-
-
-

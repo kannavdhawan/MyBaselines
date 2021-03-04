@@ -7,7 +7,6 @@ def bubble_sort(arr):
                 tmp = arr[k]
                 arr[k] = arr[k+1]
                 arr[k+1] = tmp
-
             else:
                 continue
     return arr
@@ -32,7 +31,7 @@ print(selection_sort(arr))
 
 def insertion_sort(arr):
     for i in range(1,len(arr)):
-        for j in range(0,i):
+        for j in range(0, i):
             if arr[i] < arr[j]:
                 arr.insert(j, arr[i])
                 arr.pop(i+1)

@@ -24,6 +24,7 @@ d = Node(8)
 a.nextnode = b
 b.nextnode = c
 c.nextnode = d
+d.nextnode = a
              ## Cycle Exists
 
 print("Cycle Exists:",format(a.cycle_check(a)))

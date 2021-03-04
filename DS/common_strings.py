@@ -9,13 +9,17 @@ def common_strings(arr):
         for j in range(1,len(arr)):
             if i in arr[j]:
                 c+=1
-            if c == len(arr) -1:
-                final.append(i)
+        if c == len(arr) -1:
+            final.append(i)
     return final
 
 arr = [['kannav', 'T','D', 'kannav'],['kannav','Dhawan','T','K'],['kannav','T','D']]
 cs = common_strings(arr)
 print(cs)
+
+
+
+
 
 
 # def common_strings(arr):

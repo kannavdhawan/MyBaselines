@@ -25,13 +25,11 @@ def reverse_string(inp):
 
 print(reverse_string('hello world'))
 
-
-
-
 # Create cache for known results
-factorial_memo = {}
 
 def factorial(k):
+    factorial_memo = {}
+
     if k < 2:
         return 1
 
@@ -51,28 +49,19 @@ print(cum_sum((5)))
 
 
 def word_split(phrase, list_of_words, output=None):
-    # Checks to see if any output has been initiated.
-    # If we default output=[], it would be overwritten for every recursion!
+
     if output is None:
         output = []
-
-    # For every word in list
     for word in list_of_words:
 
-        # If the current phrase begins with the word, we have a split point!
         if phrase.startswith(word):
-            # Add the word to the output
             output.append(word)
 
-            # Recursively call the split function on the remaining portion of the phrase--- phrase[len(word):]
-            # Remember to pass along the output and list of words
             return word_split(phrase[len(word):], list_of_words, output)
-
-    # Finally return output if no phrase.startswith(word) returns True
     return output
 
 
-word_split('ilovedogsJohn',['i','am','a','dogs','lover','love','John'])
+print(word_split('ilovedogsJohn',['i','am','a','dogs','lover','love','John']))
 
 
 

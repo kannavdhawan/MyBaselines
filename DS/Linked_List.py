@@ -12,3 +12,12 @@ print(a.value)
 print(b.value)
 print(a.nextnode.value)
 
+
+
+
+
+
+
+
+
+
