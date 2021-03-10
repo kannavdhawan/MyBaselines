@@ -29,6 +29,7 @@ def selection_sort(arr):
 arr = [3,2,13,4,6,5,7,8,1,20]
 print(selection_sort(arr))
 
+
 def insertion_sort(arr):
     for i in range(1,len(arr)):
         for j in range(0, i):

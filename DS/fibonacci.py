@@ -5,3 +5,4 @@ def fib_recursion(num):
     return fib_recursion(num-1) + fib_recursion(num-2)
 
 print(fib_recursion(10))
+
