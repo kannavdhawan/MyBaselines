@@ -1,0 +1,5 @@
+collections methods
+set, list, linked list, stack, queue,
+String.
+Map---> Dictionary.
+Hashtable
